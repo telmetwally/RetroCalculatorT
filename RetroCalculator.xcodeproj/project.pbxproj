@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16AF948B1BA4658E009E4534 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 16AF948A1BA4658E009E4534 /* btn.wav */; settings = {ASSET_TAGS = (); }; };
 		16C1221A1BA2F21C007CE069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C122191BA2F21C007CE069 /* AppDelegate.swift */; };
 		16C1221C1BA2F21C007CE069 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C1221B1BA2F21C007CE069 /* ViewController.swift */; };
 		16C1221F1BA2F21C007CE069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C1221D1BA2F21C007CE069 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		16C122241BA2F21C007CE069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C122221BA2F21C007CE069 /* LaunchScreen.storyboard */; };
 		16C1222F1BA2F21C007CE069 /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C1222E1BA2F21C007CE069 /* RetroCalculatorTests.swift */; };
 		16C1223A1BA2F21C007CE069 /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C122391BA2F21C007CE069 /* RetroCalculatorUITests.swift */; };
+		16C122481BA319A3007CE069 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16C122471BA319A3007CE069 /* Minecraft.ttf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16AF948A1BA4658E009E4534 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		16C122161BA2F21C007CE069 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C122191BA2F21C007CE069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16C1221B1BA2F21C007CE069 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		16C122351BA2F21C007CE069 /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C122391BA2F21C007CE069 /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		16C1223B1BA2F21C007CE069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C122471BA319A3007CE069 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		16C1220D1BA2F21C007CE069 = {
 			isa = PBXGroup;
 			children = (
+				16C122471BA319A3007CE069 /* Minecraft.ttf */,
+				16AF948A1BA4658E009E4534 /* btn.wav */,
 				16C122181BA2F21C007CE069 /* RetroCalculator */,
 				16C1222D1BA2F21C007CE069 /* RetroCalculatorTests */,
 				16C122381BA2F21C007CE069 /* RetroCalculatorUITests */,
@@ -228,8 +234,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16AF948B1BA4658E009E4534 /* btn.wav in Resources */,
 				16C122241BA2F21C007CE069 /* LaunchScreen.storyboard in Resources */,
 				16C122211BA2F21C007CE069 /* Assets.xcassets in Resources */,
+				16C122481BA319A3007CE069 /* Minecraft.ttf in Resources */,
 				16C1221F1BA2F21C007CE069 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +489,7 @@
 				16C122401BA2F21C007CE069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16C122411BA2F21C007CE069 /* Build configuration list for PBXNativeTarget "RetroCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +498,7 @@
 				16C122431BA2F21C007CE069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16C122441BA2F21C007CE069 /* Build configuration list for PBXNativeTarget "RetroCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +507,7 @@
 				16C122461BA2F21C007CE069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
